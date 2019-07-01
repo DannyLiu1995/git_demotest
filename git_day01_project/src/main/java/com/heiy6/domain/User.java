@@ -8,6 +8,16 @@ package com.heiy6.domain;
 public class User {
     private Integer id;
     private String name;
+    private Integer age;
+
+    public Integer getAge() {
+        return age;
+    }
+
+    public User setAge(Integer age) {
+        this.age = age;
+        return this;
+    }
 
     public Integer getId() {
         return id;
